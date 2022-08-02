@@ -1,0 +1,7 @@
+<h1><%= @supermarket.name %>'s Items</h1>
+
+<% @supermarket.items.each do |item| %>
+<div id = "item-<%= item.id %>">
+  <%= item.name  %>
+</div>
+<% end %>

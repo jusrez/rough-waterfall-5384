@@ -26,6 +26,16 @@
 @sally_potato = CustomerItem.create!(customer_id: @sally.id, item_id: @potato.id)
 @jenny_popcorn = CustomerItem.create!(customer_id: @jenny.id, item_id: @popcorn.id)
 
+@traderjoes_broccoli = SupermarketItem.create!(supermarket_id: @traderjoes.id, item_id: @broccoli.id)
+@traderjoes_potato = SupermarketItem.create!(supermarket_id: @traderjoes.id, item_id: @potato.id)
+@traderjoes_popcorn = SupermarketItem.create!(supermarket_id: @traderjoes.id, item_id: @popcorn.id)
+@traderjoes_soda = SupermarketItem.create!(supermarket_id: @traderjoes.id, item_id: @soda.id)
+@traderjoes_spaghetti = SupermarketItem.create!(supermarket_id: @traderjoes.id, item_id: @spaghetti.id)
+@wholefoods_broccoli = SupermarketItem.create!(supermarket_id: @wholefoods.id, item_id: @broccoli.id)
+@wholefoods_potato = SupermarketItem.create!(supermarket_id: @wholefoods.id, item_id: @potato.id)
+@wholefoods_popcorn = SupermarketItem.create!(supermarket_id: @wholefoods.id, item_id: @popcorn.id)
+@wholefoods_soda = SupermarketItem.create!(supermarket_id: @wholefoods.id, item_id: @soda.id)
+@wholefoods_spaghetti = SupermarketItem.create!(supermarket_id: @wholefoods.id, item_id: @spaghetti.id)
 
 
 
