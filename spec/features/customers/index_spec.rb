@@ -40,6 +40,12 @@ RSpec.describe 'Customer Show' do
         expect(page).to_not have_content(@spaghetti.name)
         expect(page).to have_content(@traderjoes.name)
       end
+
+      it 'I see the total price of all of its items' do
+        visit "/customers/#{@john.id}"
+
+        expect(page).to have_content("Total price of all John's items: $5.00") 
+      end
     end
   end
 end
